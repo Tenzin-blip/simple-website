@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>My Website</title>
+    </head>
+    <body>
+        <!--Header-->
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <a href="#hero"><h1><span>T</span>enzin <span>D</span>olker</h1></a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger"><div class="bar"></div></div>
+                        <ul>
+                            <li><a href="#hero" data-after="Home">Home</a></li>
+                            <li><a href="#services" data-after="Services">Services</a></li>
+                            <li><a href="#projects" data-after="Projects">Projects</a></li>
+                            <li><a href="#about" data-after="About">About</a></li>
+                            <li><a href="#contact"data-after="Contact">Contact</a></li>
+                        </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--End Header-->
+
+
+        <!--HERO SECTION-->
+        <section id="hero">
+            <div class="hero container">
+                <div>
+                    <h1>Hello, <span></span></h1>
+                    <h1>My Name Is<span></span></h1>
+                    <h1>Tenzin<span></span></h1>
+                    <a href="#projects" type="button" class="cta">Portfolio</a>
+                </div>
+            </div>
+        </section>
+        <!--End Hero Section-->
+
+        <!--Service Section-->
+        <section id="services">
+            <div class="services container">
+                <div class="service-top">
+                    <h1 class="section-title"><b>Serv<span>i</span>ces</b></h1>
+                </div>
+                <div class="service-bottom">
+                    <div class="service-item">
+                        <div class="icon"><img src="data:image/png;base64,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"></div>
+                        <h2>Responsive Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="icon"><img src="data:image/png;base64,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"></div>
+                        <h2>Photo Shop</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAFcElEQVR4nO3dX1CUVRjH8e/LnxVR0FU0x0RAEYFXDcqyHG8gyckZpQv6Q+BMMzpp6pSNo3Show036uhYY441WRc5qZNdSI7aoMRNdRHjf3alNQN0EEvJFRdMYHm7ACFnsUk8u3te9vlcvbNn9zmH/bFnn91lX0AIIYQQQgghhBBCCCGEEEIIEbmMYBVOnpo1I9qKWmZ1Mx+DVGBEsOYKkTYsGowoTvqN7r1XL1+sDcYkygMxTdPha2cnsAKIUl1fE35gz8h41rpcrg6VhZUGYpqmw9fGcQzyHY5YSooLWbyogIyMqcTHx6mcKuTa2//G47nM4YpK9h+soLOzC6BqZDwLVYaiNJCUNHM3sHLChCS+/Hw7WVnpKstrw+2+xNK313H9+k3A2NVYX/uuqtrKtpTkqVkzgOUOR2xAGE1N1yl5dRWmmU/pa6u5du2PB8dKV2DOzKN0yTsBY0VvriJzZj5FJQ/eLpyys6ex97NtxMbGANbKyenZpqraygKJtqKWAdElxYUBj4z1a8qZfWMYVZklPP2ng7L3y/vHyjbzQs4tfj6SzZxZtyj7YHPf2HvryvEmxzFnxxJuTxrGmvXl6MI0Myh+fTFAtNFlLFVVV1kgFhQAFC5+KWDsnKuON5KyGR4dQ3FSNmdq6/rHznkoLUoifngUS4rGcOasp2/MdaGOiS+aRA+LYWK+yflzdQG1w+mVwgU9B4ZRoKqmui7IYjJA+rS0gKGcGVkcuOmmvbuT/Tfd5M7I7B/Lmc6+Qy203e3mq0Mt5OZk9I2Zs7JornLRda+TpioXs57KDKgdThnTp/QeWSmqaqpsS0cCjIgfHjCwdecGzjzRQYH7AGcndLJ158b+sS2b+OWCk3mLLlLjGsvWLf1b1sfbNuBsukfN2q8Z09zBR9s2BtQOp3/9rAmqairrslLSTAug/rcfVZW0hbT0eQA01ruU3JdD9YWbbcWoLnj/N0Y3qanJVJ88AEDe/GIaGq7+53Xue9h1g0W2rMckW9YQJ4FoRgLRjG0CyZtfHO4lhITyLitYBup0cmcvxOttDdkanM5RnK45GtQ5bBPIQLzeVupdm0I2X5r5YdDnCHogg+3jB3pNEAmCHkgk3qmPwzZP6pFCAtGMBKIZCUQzEohmpO3VjLS9mpEtSzO2DiQ1ZWy4l6CcrQOpPrY63EtQztZvLhI1Grq9AOQt/ISGxhag55FTfWz1A5ep4Bwd/G9U2DuQ2Gf7DqurAv94cKDLdCdtr2ak7dWMvbesQcqd/TJe751Hvp3TmcjpmmNBWFG/iAzE670zqE8aQ/GJoa3b3qFIAtGMBKIZW7e9j1LbLm20rdteO9zBj0q2LM1IIJqRQDQjgWhGAtGMtL2akbZXMxH55qLTmTCoNwqdTmXnB3ioiAzkdM3xcC/hoWzzpJ6amhzuJYSEbQIZis8XA7FNIJFCAtFMyM918n/OORLJVAZyB0ioPX9iwHNmDcTuzws+XxszcxYAKPtutroty+AqwCXP78pK6s7jaeg9Mq6oqqnynIuVABXfnVBVUnuHK77vPbIqVdVU9wiJsvYC/v0HK3C7Lykrq6va2l85+M0RAL/l5wtVdaNVFbr9140bo53jx/n93c/9UP0Tc59/hnHjht7XBaAnjGXLy2ht9WEY7GpscO1TVVtZIACTnhxf1dHJXJ+vfcqhb4/S0nKLxMREEkcl4IiNVTlVyLW136X2goc9n+5j4+YdtLb6AONk0pi4t5qbm7tVzROkk/Eb28FaieLANdJlGOwe64xbd+rUqU6VhYP27yomp2ebRpextOckw1YqvaeRtTEfGA1gVVp+vrhyxeUO94KEEEIIIYQQQgghhBBCCCGEEEPNP3CxwC+UCY8yAAAAAElFTkSuQmCC"></div>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Service Section-->
+
+        <!--Projects Section-->
+        <section id="projects">
+            <div class="projects container">
+                <div class="projects-header">
+                    <h1 class="section-title"><b>Recent <span>Projects</span></b></h1>
+                </div>
+                <div class="all-projects">
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 1</h1>
+                            <h2>Coding is Love</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="./img/friends.jpg.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 2</h1>
+                            <h2>Coding is Love</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="./img/galaxy.jpg.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-info">
+                            <h1>Project 3</h1>
+                            <h2>Coding is Love</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                        </div>
+                        <div class="project-img">
+                            <img src="./img/girls.jpg.jpg" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- End Projects Section-->
+        <!--About Section-->
+        <section id="about">
+            <div class="about container">
+                <div class="col-left">
+                    <div class="about-img">
+                        <img src="./img/sunset.jpg.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="col-right">
+                    <h1 class="section-title"><b>About <span>me</span></b></h1>
+                    <h2><b>Front End Developer</b></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis excepturi debitis minus dolore reprehenderit voluptatibus sapiente, modi reiciendis ducimus deleniti, inventore nisi impedit quaerat pariatur incidunt necessitatibus quibusdam. Voluptatibus.</p>
+                    <a href="#" class="cta">Download Resume</a>
+                </div>
+    
+            </div>
+        </section>
+        <!--End About Section-->
+        <!--Contact Section-->
+        <section id="contact">
+            <div class="contact container">
+                <div>
+                    <h1 class="section-title"><b>Contact <span>info</span><b</h1>
+                </div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/ios/100/null/ringing-phone.png"/>
+                        </div>
+                        <div class="contact-info">
+                            <h1>Phone</h1>
+                            <h2>+977 9823682229</h2>
+                            <h2>+977 9851125710</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/carbon-copy/100/null/secured-letter.png"/>
+                        </div>
+                        <div class="contact-info">
+                            <h1>Email</h1>
+                            <h2>dolkertenzin9@gmail.com</h2>
+                            <h2>dolkertenzin9@gmail.com</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">
+                            <img src="https://img.icons8.com/carbon-copy/100/null/map-marker.png"/>
+                        </div>
+                        <div class="contact-info">
+                            <h1>Address</h1>
+                            <h2>Kapan, Simaltaar</h2>
+                            <h2>Nepal</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--End Contact Section-->
+        <!--Footer-->
+        <section id="footer">
+            <div class="footer container">
+                <div class="brand"><h1><span>T</span>enzin <span>D</span>olker </h1></div>
+                <h2><b>Your Complete Web Solution</b></h2>
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/color/100/null/discord-logo.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/fluency/100/null/instagram-new.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/fluency/100/null/facebook-new.png"/></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="#"><img src="https://img.icons8.com/color/100/null/twitter--v1.png"/></a>
+                    </div>
+                </div>
+                <p><b>Copyright © 2022 Tenzin. All rights reserved</b></p>
+            </div>
+        </section>
+         <!--End Footer-->
+        <script src="./app.js"></script>
+    </body>
+</html>
+
